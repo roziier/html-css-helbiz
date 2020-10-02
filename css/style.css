@@ -41,6 +41,7 @@ img {
 
 header {
   padding-top: 100px;
+  background-color: white;
 }
 
 #nav-large {
@@ -58,9 +59,10 @@ header {
 /* degug */
 #jumbo {
   padding-top: 50px;
-  min-height: 300px;
-  background-color: yellow;
+  height: 600px;
   border: 1px solid black;
+  background-image: url(../img/helbiz-unlimeted-monopattini.jpg);
+  background-size: cover;
 }
 /* degug */
 .bc{
@@ -79,6 +81,22 @@ header {
 .centra-head-footer{
   padding-left: 12%;
   padding-right: 12%;
+}
+
+.list li{
+  display: inline-block;
+  /* aggiungere border eng ita es */
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+#logo{
+  margin-top: 20px;
+  margin-bottom: 20px;
+
 }
 
 /* dispositivi tablet */
