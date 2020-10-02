@@ -83,6 +83,10 @@ header {
   padding-right: 12%;
 }
 
+.hidedesk{
+  display: none;
+}
+
 .list li{
   display: inline-block;
   /* aggiungere border eng ita es */
