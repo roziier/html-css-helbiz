@@ -14,7 +14,7 @@ img {
 .row{
   width: 100%;
   min-height: 100px;
-  background-color: lightgreen;
+
   border: 1px solid black;
 }
 
@@ -55,9 +55,19 @@ header {
   display: none;
 }
 
+/* degug */
 #jumbo {
   padding-top: 50px;
   min-height: 300px;
+  background-color: yellow;
+  border: 1px solid black;
+}
+/* degug */
+.bc{
+  background-color: yellow;
+  padding-top: 50px;
+  min-height: 300px;
+  border: 1px solid black;
 }
 
 /* regole corpo pagina */
@@ -69,4 +79,24 @@ header {
 .centra-head-footer{
   padding-left: 12%;
   padding-right: 12%;
+}
+
+/* dispositivi tablet */
+
+@media all and (min-width: 769px) and (max-width: 992px){
+
+  #navlarge{
+    display: none;
+  }
+
+  .hidetablet{
+    display: none;
+  }
+
+  header {
+    padding-top: 0;
+  }
+
+
+
 }
