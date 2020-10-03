@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Cairo', sans-serif;
 }
 
 img {
@@ -13,9 +14,9 @@ img {
 
 .row{
   width: 100%;
-  min-height: 100px;
 
-  border: 1px solid black;
+
+
 }
 
 .row::after {
@@ -26,11 +27,11 @@ img {
 
 /* regole di debug */
 [class*="col-"] {
-  min-height: 70px;
-  background-color: orange;
-  border: solid 1px  #000;
   float: left;
+}
 
+.margin-top{
+  margin-top: 20px;
 }
 
 /* header */
@@ -60,17 +61,11 @@ header {
 #jumbo {
   padding-top: 50px;
   height: 600px;
-  border: 1px solid black;
+
   background-image: url(../img/helbiz-unlimeted-monopattini.jpg);
   background-size: cover;
 }
-/* degug */
-.bc{
-  background-color: yellow;
-  padding-top: 50px;
-  min-height: 300px;
-  border: 1px solid black;
-}
+
 
 /* regole corpo pagina */
 
