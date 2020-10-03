@@ -87,6 +87,8 @@ header {
   display: none;
 }
 
+
+/* header */
 .list li{
   display: inline-block;
   /* aggiungere border eng ita es */
@@ -96,10 +98,49 @@ header {
   margin-bottom: 20px;
   color: black;
 }
+#centred{
+  text-align: center;
+  color: white;
+}
+
+#centred > h1{
+  font-size: 52px;
+  margin-bottom: 30px;
+  margin-top: 140px;
+}
+
+#centred > p{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#inline img{
+  display: inline-block;
+  max-height: 65px;
+  max-width: 160px;
+  margin-top: 10px;
+}
+
 
 #logo{
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+/* main */
+
+#prodact{
+  background-color: #FAFAFA;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 30px;
+}
+
+#prodact > p,
+#prodact > a{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 25px;
 }
 
 #imgold{
@@ -112,13 +153,49 @@ header {
   background-image: url(../img/scooter.f0a0397.jpg);
   background-size: cover;
   height: 500px;
+  margin-bottom: 25px;
 }
 
 #imgright{
   background-image: url(../img/sfondo_info3.jpg);
   background-size: cover;
   height: 600px;
+}
 
+#imgleft{
+  background-color: #334251;
+  height: 600px;
+  position: relative;
+}
+
+.middle{
+  text-align: center;
+  color: white;
+}
+
+.middle > h1{
+  font-size: 52px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.middle > a{
+  display: inline-block;
+  padding: 10px;
+}
+
+.middle > img{
+  height: 300px;
+  position: absolute;
+  bottom: 0;
+  left: 160px;
+}
+
+#back{
+  background-image: url(../img/pachwork.jpg);
+  background-size: cover;
+  height: 400px;
+  margin-top: 20px;
 }
 
 /* dispositivi tablet */
