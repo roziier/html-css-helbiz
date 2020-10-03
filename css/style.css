@@ -51,6 +51,7 @@ header {
   left: 0;
   width: 100%;
   z-index: 900;
+  background-color: white;
 }
 
 #navtablet{
@@ -101,12 +102,17 @@ header {
 #centred > h1{
   font-size: 52px;
   margin-bottom: 30px;
-  margin-top: 140px;
+  margin-top: 50px;
 }
 
 #centred > p{
   font-size: 20px;
   margin-bottom: 10px;
+}
+
+#centred > a{
+  color: white;
+  text-decoration: none;
 }
 
 #inline img{
@@ -163,6 +169,18 @@ header {
   position: relative;
 }
 
+
+.oldtextcentred{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 40px;
+
+}
+
+.oldtextcentred > h1{
+  font-size: 35px;
+}
+
 .middle{
   text-align: center;
   color: white;
@@ -177,6 +195,8 @@ header {
 .middle > a{
   display: inline-block;
   padding: 10px;
+  text-decoration: none;
+  color: white;
 }
 
 .middle > img{
@@ -191,6 +211,31 @@ header {
   background-size: cover;
   height: 400px;
   margin-top: 20px;
+  position: relative;
+}
+
+#hashtag{
+  padding: 60px;
+  background-color: white;
+  font-size: 25px;
+  width: 25%;
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#hashtag i {
+  display: inline-block;
+  padding: 10px;
+}
+
+
+footer{
+  background-color: black;
+  color: white;
 }
 
 /* dispositivi tablet */
@@ -208,6 +253,8 @@ header {
   header {
     padding-top: 0;
   }
+
+
 
 }
 
