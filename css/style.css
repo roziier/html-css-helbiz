@@ -148,6 +148,7 @@ header {
   margin-top: 20px;
   margin-bottom: 20px;
   font-size: 25px;
+  text-decoration: none;
 }
 
 #imgold{
@@ -273,7 +274,11 @@ li{
   max-height: 65px;
   max-width: 160px;
   margin-top: 50px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
+}
+
+#appfoot {
+  text-align: center;
 }
 
 
@@ -293,6 +298,22 @@ li{
   header {
     padding-top: 0;
   }
+
+  #secfootmargin{
+    margin-top: 10px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+
+  .ended{
+    margin-top: 20px;
+    padding-bottom: 20px;
+  }
+
+
 
 
 
