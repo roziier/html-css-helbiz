@@ -65,6 +65,9 @@ header {
 
   background-image: url(../img/helbiz-unlimeted-monopattini.jpg);
   background-size: cover;
+  filter: brightness(80%);
+  filter: contrast(70%);
+  filter: saturate(80%);
 }
 
 
@@ -88,12 +91,18 @@ header {
 .list li{
   display: inline-block;
   /* aggiungere border eng ita es */
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-top: 20px;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-top: 30px;
   margin-bottom: 20px;
   color: black;
+  font-size: 11px;
+  float: right;
 }
+.list ul{
+  margin-left: 50px;
+}
+
 #centred{
   text-align: center;
   color: white;
@@ -101,8 +110,8 @@ header {
 
 #centred > h1{
   font-size: 52px;
-  margin-bottom: 30px;
-  margin-top: 50px;
+  margin-bottom: 60px;
+  margin-top: 100px;
 }
 
 #centred > p{
@@ -125,7 +134,7 @@ header {
 
 #logo{
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 /* main */
@@ -148,6 +157,7 @@ header {
   background-image: url(../img/anziano.jpg);
   background-size: cover;
   height: 400px;
+  margin-top: 30px;
 }
 
 #imglong{
@@ -166,9 +176,8 @@ header {
 #imgleft{
   background-color: #334251;
   height: 600px;
-  position: relative;
-}
 
+}
 
 .oldtextcentred{
   text-align: center;
@@ -184,6 +193,7 @@ header {
 .middle{
   text-align: center;
   color: white;
+
 }
 
 .middle > h1{
@@ -199,12 +209,6 @@ header {
   color: white;
 }
 
-.middle > img{
-  height: 300px;
-  position: absolute;
-  bottom: 0;
-  left: 160px;
-}
 
 #back{
   background-image: url(../img/pachwork.jpg);
@@ -218,7 +222,7 @@ header {
   padding: 60px;
   background-color: white;
   font-size: 25px;
-  width: 25%;
+  width: 400px;
   text-align: center;
   margin: 0;
   position: absolute;
@@ -237,6 +241,45 @@ footer{
   background-color: black;
   color: white;
 }
+
+li{
+  list-style: none;
+}
+
+.footmargin{
+  margin-top: 150px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+#logofoot{
+  font-size: 30px;
+  padding: 0;
+  margin-top: 130px;
+}
+
+#secfootmargin{
+  margin-top: 10px;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#hashtagfoot i{
+  font-size: 20px;
+  margin: auto 8px;
+}
+
+#appfoot img{
+  display: inline-block;
+  max-height: 65px;
+  max-width: 160px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+
 
 /* dispositivi tablet */
 
@@ -283,6 +326,8 @@ footer{
     padding-left: 0;
     padding-right: 0;
   }
+
+
 
 
 
