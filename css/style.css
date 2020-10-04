@@ -384,3 +384,7 @@ li{
     padding-bottom: 30px;
     text-align: center;
   }
+
+  .ended{
+    font-size: 10px;
+  }
