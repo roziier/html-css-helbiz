@@ -312,7 +312,44 @@ li{
     padding-bottom: 20px;
   }
 
+  #navtablet{
+    display: contents;
+  }
 
+  #navtablet{
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+
+  }
+
+#navtablet .menu{
+  display: none;
+}
+
+#navtablet a{
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+#navtablet a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+label{
+  float: right;
+  font-size: 30px;
+  padding-right: 10px;
+}
+
+#navtablet h2{
+  float: left;
+  padding-left: 10px;
+  padding-top: 5px;
+}
 
 
 
@@ -388,3 +425,42 @@ li{
   .ended{
     font-size: 10px;
   }
+
+  #navtablet{
+    display: contents;
+  }
+
+  #navtablet{
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+
+  }
+
+#navtablet .menu{
+  display: none;
+}
+
+#navtablet a{
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+#navtablet a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+label{
+  float: right;
+  font-size: 30px;
+  padding-right: 10px;
+}
+
+#navtablet h2{
+  float: left;
+  padding-left: 10px;
+  padding-top: 5px;
+}
